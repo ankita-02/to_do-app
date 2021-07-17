@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  color:white;
+  background-image: linear-gradient(to right, rgb(144, 184, 69),rgb(133, 72, 133),rgb(52, 77, 52));
+  height: 750px;
+  text-shadow: 2px 2px 5px red;
+}
+
+.App-logo {
+  height: 100vmin;
+}
+.links:hover {
+  background-color: rgb(56, 143, 21);
+}
+
+.completed{
+  text-decoration:line-through
+}
+
+
+
+input[type=text], input[type=password],input[type=email] {
+  width: 80%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 15px;
+  background: whitesmoke;
+}
+
+.boxstyle {
+  border: 2px solid rgb(7, 7, 7);
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: 15px;
+  background-color: grey;
+  
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgb(112, 70, 70);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: maximum;
+  color: white;
+}
+
+.App-link {
+  color: blue;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
